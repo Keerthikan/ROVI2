@@ -1,0 +1,2 @@
+Does stereopsis always lead to an disparity map?
+
