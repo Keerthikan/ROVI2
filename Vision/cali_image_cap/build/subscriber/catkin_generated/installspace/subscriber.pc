@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install
+
+Name: subscriber
+Description: Description of subscriber
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install/lib 
+Requires: 

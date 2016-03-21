@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "subscriber")
+set(subscriber_MAINTAINER "keerthikan <keerthikan@todo.todo>")
+set(subscriber_DEPRECATED "")
+set(subscriber_VERSION "0.0.0")
+set(subscriber_BUILD_DEPENDS )
+set(subscriber_RUN_DEPENDS )
+set(subscriber_BUILDTOOL_DEPENDS "catkin")

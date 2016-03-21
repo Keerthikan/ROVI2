@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(subscriber)
+
+find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg cv_bridge image_transport)
+
+catkin_package()
+
+include_directories(include ${catkin_INCLUDE_DIRS})
+
+add_executable(main main.cpp)
+target_link_libraries(main ${catkin_LIBRARIES})
+
+
