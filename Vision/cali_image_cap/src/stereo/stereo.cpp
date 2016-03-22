@@ -8,7 +8,7 @@
 
 namespace enc = sensor_msgs::image_encodings;
 
-class harris_node
+class Node
 {
 protected:
     //   image_transport::ImageTransport it_;
@@ -28,10 +28,10 @@ public:
     cv::Mat cvImage_in;       //for processing, input at each step
     cv::Mat cvImage_out;      //for processing, output at each step
 
-    harris_node(ros::NodeHandle& nh):nh_(nh)
+    Node(ros::NodeHandle& nh):nh_(nh)
     {
         image_transport::ImageTransport it_(nh_);
-        sub_ = it_.subscribe("/stereo_camera/left/image_raw", 1, &harris_node::imageCb, this);
+        sub_ = it_.subscribe("/stereo_camera/left/image_raw", 1, &Node::imageCb, this);
     }
 
     void imageCb(const sensor_msgs::ImageConstPtr& image)
@@ -51,12 +51,16 @@ public:
         }
     }
 
-    void harris_detector()
+    void process()
     {
+        //Make sure that We only proces new  images and dont run this function multiple times unessesarly
+
         if ( imageIn_ == NULL || imageIn_ == imageIn_temp)
          return;
 
         imageIn_temp = imageIn_;
+        //--------------------------------------------------------------------------------------------//
+        //Actual process
 
         ROS_ERROR("It works - bitches");
 
@@ -72,7 +76,7 @@ public:
         while (ros::ok())
         {
               ros::spinOnce();
-              harris_detector();
+              process();
               rate.sleep();
         }
     }
@@ -105,7 +109,7 @@ int main(int argc, char** argv)
 {
     ros::init(argc, argv, "image_processor");
     ros::NodeHandle nh;
-    harris_node node(nh);
+    Node node(nh);
     node.spin();
 
 }

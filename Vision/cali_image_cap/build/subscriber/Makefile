@@ -62,8 +62,8 @@ install/strip/fast: install/strip
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -153,252 +153,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+subscriber/CMakeFiles/subscriber.dir/rule:
+	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/subscriber.dir/rule
+.PHONY : subscriber/CMakeFiles/subscriber.dir/rule
 
 # Convenience name for target.
-geometry_msgs_generate_messages_cpp: subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
+subscriber: subscriber/CMakeFiles/subscriber.dir/rule
+.PHONY : subscriber
 
 # fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
+subscriber/fast:
+	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
-# Convenience name for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/main.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/main.dir/rule
-.PHONY : subscriber/CMakeFiles/main.dir/rule
-
-# Convenience name for target.
-main: subscriber/CMakeFiles/main.dir/rule
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
+subscriber.o: subscriber.cpp.o
+.PHONY : subscriber.o
 
 # target to build an object file
-main.cpp.o:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+subscriber.cpp.o:
+	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/subscriber.cpp.o
+.PHONY : subscriber.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+subscriber.i: subscriber.cpp.i
+.PHONY : subscriber.i
 
 # target to preprocess a source file
-main.cpp.i:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+subscriber.cpp.i:
+	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/subscriber.cpp.i
+.PHONY : subscriber.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+subscriber.s: subscriber.cpp.s
+.PHONY : subscriber.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+subscriber.cpp.s:
+	cd /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build && $(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/subscriber.cpp.s
+.PHONY : subscriber.cpp.s
 
 # Help Target
 help:
@@ -406,32 +196,17 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... roscpp_generate_messages_lisp"
 	@echo "... install/strip"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... main"
-	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... list_install_components"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... test"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... std_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... subscriber"
 	@echo "... install/local"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... subscriber.o"
+	@echo "... subscriber.i"
+	@echo "... subscriber.s"
 .PHONY : help
 
 

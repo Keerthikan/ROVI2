@@ -317,29 +317,544 @@ clean: gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory stereo
+
+# Convenience name for "all" pass in the directory.
+stereo/all: stereo/CMakeFiles/stereo.dir/all
+.PHONY : stereo/all
+
+# Convenience name for "clean" pass in the directory.
+stereo/clean: stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+stereo/clean: stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+stereo/clean: stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+stereo/clean: stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+stereo/clean: stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+stereo/clean: stereo/CMakeFiles/roscpp_generate_messages_py.dir/clean
+stereo/clean: stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+stereo/clean: stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+stereo/clean: stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+stereo/clean: stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+stereo/clean: stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+stereo/clean: stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+stereo/clean: stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+stereo/clean: stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+stereo/clean: stereo/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+stereo/clean: stereo/CMakeFiles/stereo.dir/clean
+.PHONY : stereo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+stereo/preinstall:
+.PHONY : stereo/preinstall
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_cpp"
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# clean rule for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_lisp"
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# clean rule for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target geometry_msgs_generate_messages_py"
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : geometry_msgs_generate_messages_py
+
+# clean rule for target.
+stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/roscpp_generate_messages_cpp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target roscpp_generate_messages_cpp"
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : roscpp_generate_messages_cpp
+
+# clean rule for target.
+stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/roscpp_generate_messages_lisp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target roscpp_generate_messages_lisp"
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_lisp: stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+.PHONY : roscpp_generate_messages_lisp
+
+# clean rule for target.
+stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/roscpp_generate_messages_py.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_py.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_py.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target roscpp_generate_messages_py"
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_py.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_py: stereo/CMakeFiles/roscpp_generate_messages_py.dir/rule
+.PHONY : roscpp_generate_messages_py
+
+# clean rule for target.
+stereo/CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_py.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : stereo/CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target rosgraph_msgs_generate_messages_cpp"
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# clean rule for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target rosgraph_msgs_generate_messages_py"
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_py: stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+.PHONY : rosgraph_msgs_generate_messages_py
+
+# clean rule for target.
+stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_cpp"
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# clean rule for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_lisp"
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_lisp: stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# clean rule for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target sensor_msgs_generate_messages_py"
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_py: stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+.PHONY : sensor_msgs_generate_messages_py
+
+# clean rule for target.
+stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_cpp"
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_cpp: stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+.PHONY : std_msgs_generate_messages_cpp
+
+# clean rule for target.
+stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_lisp"
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : std_msgs_generate_messages_lisp
+
+# clean rule for target.
+stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/std_msgs_generate_messages_py.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/std_msgs_generate_messages_py.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_py.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
+	@echo "Built target std_msgs_generate_messages_py"
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/std_msgs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_py: stereo/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+.PHONY : std_msgs_generate_messages_py
+
+# clean rule for target.
+stereo/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : stereo/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target stereo/CMakeFiles/stereo.dir
+
+# All Build rule for target.
+stereo/CMakeFiles/stereo.dir/all:
+	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/depend
+	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  3
+	@echo "Built target stereo"
+.PHONY : stereo/CMakeFiles/stereo.dir/all
+
+# Include target in all.
+all: stereo/CMakeFiles/stereo.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+stereo/CMakeFiles/stereo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 stereo/CMakeFiles/stereo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+.PHONY : stereo/CMakeFiles/stereo.dir/rule
+
+# Convenience name for target.
+stereo: stereo/CMakeFiles/stereo.dir/rule
+.PHONY : stereo
+
+# clean rule for target.
+stereo/CMakeFiles/stereo.dir/clean:
+	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/clean
+.PHONY : stereo/CMakeFiles/stereo.dir/clean
+
+# clean rule for target.
+clean: stereo/CMakeFiles/stereo.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory subscriber
 
 # Convenience name for "all" pass in the directory.
-subscriber/all: subscriber/CMakeFiles/main.dir/all
+subscriber/all: subscriber/CMakeFiles/subscriber.dir/all
 .PHONY : subscriber/all
 
 # Convenience name for "clean" pass in the directory.
-subscriber/clean: subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-subscriber/clean: subscriber/CMakeFiles/main.dir/clean
-subscriber/clean: subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/roscpp_generate_messages_py.dir/clean
-subscriber/clean: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-subscriber/clean: subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-subscriber/clean: subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-subscriber/clean: subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+subscriber/clean: subscriber/CMakeFiles/subscriber.dir/clean
 .PHONY : subscriber/clean
 
 # Convenience name for "preinstall" pass in the directory.
@@ -347,503 +862,38 @@ subscriber/preinstall:
 .PHONY : subscriber/preinstall
 
 #=============================================================================
-# Target rules for target subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+# Target rules for target subscriber/CMakeFiles/subscriber.dir
 
 # All Build rule for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_cpp"
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# clean rule for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_lisp"
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# clean rule for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target geometry_msgs_generate_messages_py"
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : geometry_msgs_generate_messages_py
-
-# clean rule for target.
-subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/main.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/main.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  3
-	@echo "Built target main"
-.PHONY : subscriber/CMakeFiles/main.dir/all
+subscriber/CMakeFiles/subscriber.dir/all:
+	$(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/depend
+	$(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  4
+	@echo "Built target subscriber"
+.PHONY : subscriber/CMakeFiles/subscriber.dir/all
 
 # Include target in all.
-all: subscriber/CMakeFiles/main.dir/all
+all: subscriber/CMakeFiles/subscriber.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-subscriber/CMakeFiles/main.dir/rule: cmake_check_build_system
+subscriber/CMakeFiles/subscriber.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/main.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/subscriber.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/main.dir/rule
+.PHONY : subscriber/CMakeFiles/subscriber.dir/rule
 
 # Convenience name for target.
-main: subscriber/CMakeFiles/main.dir/rule
-.PHONY : main
+subscriber: subscriber/CMakeFiles/subscriber.dir/rule
+.PHONY : subscriber
 
 # clean rule for target.
-subscriber/CMakeFiles/main.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/clean
-.PHONY : subscriber/CMakeFiles/main.dir/clean
+subscriber/CMakeFiles/subscriber.dir/clean:
+	$(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/clean
+.PHONY : subscriber/CMakeFiles/subscriber.dir/clean
 
 # clean rule for target.
-clean: subscriber/CMakeFiles/main.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target roscpp_generate_messages_cpp"
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# clean rule for target.
-subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target roscpp_generate_messages_lisp"
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# clean rule for target.
-subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target roscpp_generate_messages_py"
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: subscriber/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-subscriber/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : subscriber/CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target rosgraph_msgs_generate_messages_cpp"
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# clean rule for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target rosgraph_msgs_generate_messages_py"
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# clean rule for target.
-subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_cpp"
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# clean rule for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_lisp"
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# clean rule for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target sensor_msgs_generate_messages_py"
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# clean rule for target.
-subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_cpp"
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# clean rule for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_lisp"
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target subscriber/CMakeFiles/std_msgs_generate_messages_py.dir
-
-# All Build rule for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/all:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/depend
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 
-	@echo "Built target std_msgs_generate_messages_py"
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_py: subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
-
-# clean rule for target.
-subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-.PHONY : subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/clean
+clean: subscriber/CMakeFiles/subscriber.dir/clean
 .PHONY : clean
 
 #=============================================================================

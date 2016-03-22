@@ -62,8 +62,8 @@ install/strip/fast: install/strip
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -266,7 +266,7 @@ geometry_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -279,7 +279,7 @@ geometry_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -292,21 +292,8 @@ geometry_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	$(MAKE) -f subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	$(MAKE) -f stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f subscriber/CMakeFiles/main.dir/build.make subscriber/CMakeFiles/main.dir/build
-.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -318,7 +305,7 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
@@ -331,7 +318,7 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 #=============================================================================
@@ -344,7 +331,7 @@ roscpp_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	$(MAKE) -f subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build.make subscriber/CMakeFiles/roscpp_generate_messages_py.dir/build
+	$(MAKE) -f stereo/CMakeFiles/roscpp_generate_messages_py.dir/build.make stereo/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
@@ -357,7 +344,7 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -370,7 +357,7 @@ rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -383,7 +370,7 @@ rosgraph_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	$(MAKE) -f subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	$(MAKE) -f stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -396,7 +383,7 @@ sensor_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -409,7 +396,7 @@ sensor_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -422,7 +409,7 @@ sensor_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	$(MAKE) -f subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	$(MAKE) -f stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -435,7 +422,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -448,7 +435,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -461,8 +448,34 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build.make subscriber/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f stereo/CMakeFiles/std_msgs_generate_messages_py.dir/build.make stereo/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named stereo
+
+# Build rule for target.
+stereo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo
+.PHONY : stereo
+
+# fast build rule for target.
+stereo/fast:
+	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/build
+.PHONY : stereo/fast
+
+#=============================================================================
+# Target rules for targets named subscriber
+
+# Build rule for target.
+subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subscriber
+.PHONY : subscriber
+
+# fast build rule for target.
+subscriber/fast:
+	$(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/build
+.PHONY : subscriber/fast
 
 # Help Target
 help:
@@ -487,11 +500,11 @@ help:
 	@echo "... gtest_main"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... stereo"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_cpp"
-	@echo "... main"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
@@ -501,6 +514,7 @@ help:
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
+	@echo "... subscriber"
 .PHONY : help
 
 
