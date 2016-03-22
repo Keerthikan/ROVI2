@@ -5,4 +5,10 @@ Does stereopsis always lead to an disparity map?
 Does Ros Computer have an Camera node which does not read from the topic?
  We had some issues with Multiple computer subscribing to the same topics delays the signal..?
 
-	-	Solution Only?
+	-	Solution Only - run each node seperately?
+
+
+What other form of calibration would be necessary, we’ve performed Camera calibration but heard from others that they are performing camera to robot calibration, would that be nessary here, since our tool point is the camera?
+
+This is regarding Dirk who mentioned it? and confused us a bit... 
+
