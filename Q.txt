@@ -6,3 +6,6 @@ Does Ros Computer have an Camera node which does not read from the topic?
  We had some issues with Multiple computer subscribing to the same topics delays the signal..?
 
 	-	Solution Only?
+
+How should we talk to the robot... through caros or our own node?
+	-	if caros how as it dosent have a subscriber?
