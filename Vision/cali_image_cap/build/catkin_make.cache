@@ -1,2 +1,2 @@
-stereo:subscriber
+subscriber
 -DCATKIN_DEVEL_PREFIX=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel -DCMAKE_INSTALL_PREFIX=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install -G Unix Makefiles

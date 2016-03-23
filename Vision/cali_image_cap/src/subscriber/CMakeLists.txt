@@ -7,7 +7,7 @@ catkin_package()
 
 include_directories(include ${catkin_INCLUDE_DIRS})
 
-add_executable(subscriber subscriber.cpp)
-target_link_libraries(subscriber ${catkin_LIBRARIES})
+add_executable(main main.cpp)
+target_link_libraries(main ${catkin_LIBRARIES})
 
 

@@ -117,7 +117,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/gtest/cmake_install.cmake")
-  include("/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/stereo/cmake_install.cmake")
   include("/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/subscriber/cmake_install.cmake")
 
 endif()

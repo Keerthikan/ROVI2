@@ -1,0 +1,8 @@
+Does stereopsis always lead to an disparity map?
+-	Yes...Duh..
+
+
+Does Ros Computer have an Camera node which does not read from the topic?
+ We had some issues with Multiple computer subscribing to the same topics delays the signal..?
+
+	-	Solution Only?
