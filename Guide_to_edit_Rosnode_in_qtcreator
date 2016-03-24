@@ -1,0 +1,22 @@
+Step 1: install Qt-creator (if not already installed)
+
+$sudo apt-get install qtcreator
+
+Step 2: cd into catkin_ws/src
+
+
+Step 3: ls-l 
+
+
+Step 4:  Replace existing CMakelist.txt with /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+$cp /opt/ros/indigo/share/catkin/cmake/toplevel.cmake CMakelist.txt
+
+step 5: Open Qtcreator from terminal
+
+step 6: click open project and choose the CMakelist.txt found in catkin_ws/src
+
+Step 7: set build dir to already existing build path - being catkin_ws/build
+
+Step 8 : Done - Celebrate !!
+
+
