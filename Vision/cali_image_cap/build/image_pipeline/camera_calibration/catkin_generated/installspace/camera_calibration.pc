@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.12.16
+Cflags: 
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install/lib 
+Requires: 
