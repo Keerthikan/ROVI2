@@ -1,0 +1,50 @@
+We had Major issues with calibrating the cameras.
+Here is how we resolved it. 
+
+First create the Proper .yaml files
+
+part 1:
+
+Turn on the Robolab PC -> duh..
+
+Part 2:
+
+cd  ~/catkin_ws/src/camera1394stereo/launch
+
+part 3:
+gedit stereo_camera.launch
+
+part 4:
+
+Change line 9 and line 10 with the path of the .yaml files. 
+
+<param name="camera_info_url_left" value="file:///home/student/catkin_ws/src/camera1394stereo/launch/left.yaml" />
+<param name="camera_info_url_right" value="file:///home/student/catkin_ws/src/camera1394stereo/launch/right.yaml" />
+
+path 5:
+
+Catkin_make the project. 
+
+
+part 6:
+
+Launch stereo_camera.launch
+
+roslaunch camera1394stereo stereo_camera
+
+part 7:
+
+To apply rectification enter:
+
+ROS_NAMESPACE=stereo_camera rosrun stereo_image_proc stereo_image_proc
+
+
+in a new terminal.
+
+part8:
+
+Recified images can be extracted from the topic stereo_camera/{left,right}/image_rect_color
+
+part9: 
+Do the shake :P
+
