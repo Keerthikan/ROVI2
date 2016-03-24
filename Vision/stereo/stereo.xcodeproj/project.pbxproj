@@ -219,13 +219,13 @@
 					"-lopencv_ml",
 					"-lopencv_objdetect",
 					"-lopencv_photo",
+					"-lopencv_videoio",
 					"-lopencv_shape",
 					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
 					"-lopencv_videostab",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_ts",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -251,13 +251,13 @@
 					"-lopencv_ml",
 					"-lopencv_objdetect",
 					"-lopencv_photo",
+					"-lopencv_videoio",
 					"-lopencv_shape",
 					"-lopencv_stitching",
-					"-lopencv_superres",
-					"-lopencv_ts",
-					"-lopencv_video",
-					"-lopencv_videoio",
 					"-lopencv_videostab",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_ts",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -282,6 +282,7 @@
 				9B87DC6A1C9D90B300E96206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
