@@ -1,0 +1,15 @@
+# ID number of camera. Use Coriander to find it.
+guid: 00b09d010081dfed
+# Mode describes the size and number of channels for the images.
+video_mode: 1024x768
+# The frame_id MUST be part of your URDF to display stereo data correctly in Rviz.
+frame_id: stereo_camera
+# The location of the ROS calibration file.
+camera_info_url_left: package://stereo_calibration/cameras/xxxxxxxxxxxxxxxx_mono.yaml
+camera_info_url_right: package://stereo_calibration/cameras/xxxxxxxxxxxxxxxx_mono.yaml
+# Frames per second.
+frame_rate: 15
+# Try to reset the camera when opening.
+reset_on_open: true
+# Change from default 400Mbps Firewire.
+iso_speed: 400
