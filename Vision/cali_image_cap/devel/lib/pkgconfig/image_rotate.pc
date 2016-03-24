@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel
+
+Name: image_rotate
+Description: Description of image_rotate
+Version: 1.12.16
+Cflags: -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel/include
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel/lib 
+Requires: 

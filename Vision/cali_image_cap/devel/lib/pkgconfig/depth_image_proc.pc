@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel
+
+Name: depth_image_proc
+Description: Description of depth_image_proc
+Version: 1.12.16
+Cflags: -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/src/image_pipeline/depth_image_proc/include
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel/lib -ldepth_image_proc
+Requires: 
