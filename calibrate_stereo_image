@@ -39,7 +39,7 @@ To apply rectification enter:
 ROS_NAMESPACE=stereo_camera rosrun stereo_image_proc stereo_image_proc
 
 
-in a new terminal.
+in a new terminal window.
 
 part8:
 
