@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/install
+
+Name: caros_common
+Description: Description of caros_common
+Version: 0.0.1
+Cflags: -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/install/include
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/install/lib -lcaros_common
+Requires: caros_common_msgs message_runtime roscpp std_msgs

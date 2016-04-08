@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "caros_common")
+set(caros_common_MAINTAINER "mband <mband@mmmi.sdu.dk>")
+set(caros_common_DEPRECATED "")
+set(caros_common_VERSION "0.0.1")
+set(caros_common_BUILD_DEPENDS "message_generation" "roslint" "std_msgs" "roscpp" "caros_common_msgs")
+set(caros_common_RUN_DEPENDS "message_runtime" "std_msgs" "roscpp" "caros_common_msgs")
+set(caros_common_BUILDTOOL_DEPENDS "catkin")

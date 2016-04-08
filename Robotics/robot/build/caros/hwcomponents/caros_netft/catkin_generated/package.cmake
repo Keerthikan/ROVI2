@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "caros_netft")
+set(caros_netft_MAINTAINER "lpe <lpe@mmmi.sdu.dk>")
+set(caros_netft_DEPRECATED "")
+set(caros_netft_VERSION "0.0.1")
+set(caros_netft_BUILD_DEPENDS "message_generation" "roslint" "caros_common_msgs" "caros_common" "caros_common_robwork" "caros_sensor" "caros_sensor_msgs" "roscpp" "geometry_msgs" "std_msgs")
+set(caros_netft_RUN_DEPENDS "message_runtime" "caros_common_msgs" "caros_common" "caros_common_robwork" "caros_sensor" "caros_sensor_msgs" "roscpp" "geometry_msgs" "std_msgs")
+set(caros_netft_BUILDTOOL_DEPENDS "catkin")

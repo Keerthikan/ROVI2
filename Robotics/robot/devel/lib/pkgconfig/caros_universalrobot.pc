@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel
+
+Name: caros_universalrobot
+Description: Description of caros_universalrobot
+Version: 0.0.1
+Cflags: -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/include
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib 
+Requires: caros_common caros_common_msgs caros_common_robwork caros_control caros_control_msgs geometry_msgs message_runtime roscpp std_msgs

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "caros_common_robwork")
+set(caros_common_robwork_MAINTAINER "mband <mband@mmmi.sdu.dk>")
+set(caros_common_robwork_DEPRECATED "")
+set(caros_common_robwork_VERSION "0.0.1")
+set(caros_common_robwork_BUILD_DEPENDS "message_generation" "roslint" "std_msgs" "roscpp" "caros_common" "caros_common_msgs" "caros_common_robwork_msgs")
+set(caros_common_robwork_RUN_DEPENDS "message_runtime" "std_msgs" "roscpp" "caros_common" "caros_common_msgs" "caros_common_robwork_msgs")
+set(caros_common_robwork_BUILDTOOL_DEPENDS "catkin")

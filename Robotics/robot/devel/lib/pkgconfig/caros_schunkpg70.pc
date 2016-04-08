@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel
+
+Name: caros_schunkpg70
+Description: Description of caros_schunkpg70
+Version: 0.0.1
+Cflags: -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_schunkpg70/include
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib 
+Requires: caros_common caros_control roscpp

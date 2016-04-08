@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/install
+
+Name: caros_control
+Description: Description of caros_control
+Version: 0.0.1
+Cflags: -I/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/install/include
+Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/install/lib -lcaros_control
+Requires: caros_common caros_common_msgs caros_common_robwork caros_control_msgs geometry_msgs message_runtime roscpp std_msgs
