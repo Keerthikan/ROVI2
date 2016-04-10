@@ -98,6 +98,8 @@ public:
         //--------------------------------------------------------------------------------------------//
         //Actual process
 
+        ROS_ERROR("It works - bitches");
+
         image_in_l = cv_bridge::toCvCopy(imageIn_L, enc::BGR8);
         image_in_r = cv_bridge::toCvCopy(imageIn_r, enc::BGR8);
 
@@ -113,8 +115,8 @@ public:
 
         ROS_ERROR("It works - bitches hough");
 
-        cv::imshow("imageL", cvImage_in_l);
-        cv::imshow("imageR", cvImage_in_r);
+        //cv::imshow("imageL", cvImage_in_l);
+        //cv::imshow("imageR", cvImage_in_r);
 
         cv::waitKey(1);
         //---------------------------------------------------------------------------------------------//
