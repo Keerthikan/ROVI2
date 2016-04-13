@@ -495,8 +495,12 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
+<<<<<<< HEAD
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_lisp"
+=======
+	@echo "... roscpp_generate_messages_lisp"
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"

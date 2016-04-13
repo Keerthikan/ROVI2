@@ -260,7 +260,11 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
+<<<<<<< HEAD
         CMAKE_PREFIX_PATH = '/home/student/git/ROVI2/Vision/cali_image_cap/devel;/home/student/catkin_ws/devel;/opt/ros/indigo'.split(';')
+=======
+        CMAKE_PREFIX_PATH = '/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali/devel;/opt/ros/indigo'.split(';')
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

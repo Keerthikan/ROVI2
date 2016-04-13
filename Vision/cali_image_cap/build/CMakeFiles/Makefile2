@@ -189,7 +189,11 @@ CMakeFiles/run_tests.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
@@ -220,7 +224,11 @@ CMakeFiles/tests.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles 0
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
@@ -261,7 +269,11 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles  1
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  1
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -292,7 +304,11 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles  2
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  2
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -818,7 +834,11 @@ clean: stereo/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 stereo/CMakeFiles/stereo.dir/all:
 	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/depend
 	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles  3
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  3
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	@echo "Built target stereo"
 .PHONY : stereo/CMakeFiles/stereo.dir/all
 
@@ -868,7 +888,11 @@ subscriber/preinstall:
 subscriber/CMakeFiles/subscriber.dir/all:
 	$(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/depend
 	$(MAKE) -f subscriber/CMakeFiles/subscriber.dir/build.make subscriber/CMakeFiles/subscriber.dir/build
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/student/git/ROVI2/Vision/cali_image_cap/build/CMakeFiles  4
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/CMakeFiles  4
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 	@echo "Built target subscriber"
 .PHONY : subscriber/CMakeFiles/subscriber.dir/all
 

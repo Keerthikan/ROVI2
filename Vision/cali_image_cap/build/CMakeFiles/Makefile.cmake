@@ -16,11 +16,19 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "stereo/catkin_generated/package.cmake"
   "subscriber/catkin_generated/ordered_paths.cmake"
   "subscriber/catkin_generated/package.cmake"
+<<<<<<< HEAD
   "/home/student/git/ROVI2/Vision/cali_image_cap/src/CMakeLists.txt"
   "/home/student/git/ROVI2/Vision/cali_image_cap/src/stereo/CMakeLists.txt"
   "/home/student/git/ROVI2/Vision/cali_image_cap/src/stereo/package.xml"
   "/home/student/git/ROVI2/Vision/cali_image_cap/src/subscriber/CMakeLists.txt"
   "/home/student/git/ROVI2/Vision/cali_image_cap/src/subscriber/package.xml"
+=======
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/src/CMakeLists.txt"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/src/stereo/CMakeLists.txt"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/src/stereo/package.xml"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/src/subscriber/CMakeLists.txt"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/src/subscriber/package.xml"
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
   "/opt/ros/indigo/share/catkin/cmake/../package.xml"
   "/opt/ros/indigo/share/catkin/cmake/all.cmake"
   "/opt/ros/indigo/share/catkin/cmake/assert.cmake"
@@ -132,6 +140,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake"
   "/opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake"
   "/opt/ros/indigo/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-2.8/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake"
@@ -154,6 +163,31 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-2.8/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/UnixPaths.cmake"
+=======
+  "/usr/local/share/cmake-3.2/Modules/CMakeCInformation.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CMakeGenericSystem.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CMakeParseArguments.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CheckIncludeFiles.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CheckLibraryExists.cmake"
+  "/usr/local/share/cmake-3.2/Modules/CheckSymbolExists.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Compiler/GNU-C.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Compiler/GNU.cmake"
+  "/usr/local/share/cmake-3.2/Modules/FindGTest.cmake"
+  "/usr/local/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/local/share/cmake-3.2/Modules/FindPackageMessage.cmake"
+  "/usr/local/share/cmake-3.2/Modules/FindPythonInterp.cmake"
+  "/usr/local/share/cmake-3.2/Modules/FindThreads.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Platform/Linux-GNU-C.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Platform/Linux-GNU-CXX.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Platform/Linux-GNU.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Platform/Linux.cmake"
+  "/usr/local/share/cmake-3.2/Modules/Platform/UnixPaths.cmake"
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
   "/usr/src/gtest/CMakeLists.txt"
   "/usr/src/gtest/cmake/internal_utils.cmake"
   )
@@ -194,8 +228,12 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tests.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+<<<<<<< HEAD
   "stereo/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "stereo/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
+=======
+  "stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
   "stereo/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake"
   "stereo/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"
   "stereo/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake"

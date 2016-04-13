@@ -50,6 +50,7 @@ else()
   # search for catkin in all workspaces
   set(CATKIN_TOPLEVEL_FIND_PACKAGE TRUE)
   find_package(catkin QUIET
+
     NO_POLICY_SCOPE
     PATHS ${catkin_search_path}
     NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -115,8 +115,8 @@ public:
 
         ROS_ERROR("It works - bitches hough");
 
-        cv::imshow("imageL", cvImage_in_l);
-        cv::imshow("imageR", cvImage_in_r);
+        //cv::imshow("imageL", cvImage_in_l);
+        //cv::imshow("imageR", cvImage_in_r);
 
         cv::waitKey(1);
         //---------------------------------------------------------------------------------------------//

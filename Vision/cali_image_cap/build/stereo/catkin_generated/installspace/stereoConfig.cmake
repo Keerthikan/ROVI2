@@ -122,7 +122,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/student/git/ROVI2/Vision/cali_image_cap/install/lib;/home/student/git/ROVI2/Vision/cali_image_cap/devel/lib;/home/student/catkin_ws/devel/lib;/opt/ros/indigo/lib)
+=======
+    foreach(path /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install/lib;/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali/devel/lib;/opt/ros/indigo/lib)
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -116,9 +116,15 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   INCLUDE("/home/student/git/ROVI2/Vision/cali_image_cap/build/gtest/cmake_install.cmake")
   INCLUDE("/home/student/git/ROVI2/Vision/cali_image_cap/build/stereo/cmake_install.cmake")
   INCLUDE("/home/student/git/ROVI2/Vision/cali_image_cap/build/subscriber/cmake_install.cmake")
+=======
+  include("/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/gtest/cmake_install.cmake")
+  include("/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/stereo/cmake_install.cmake")
+  include("/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/build/subscriber/cmake_install.cmake")
+>>>>>>> 1b228854943f7929dcbf66eae90c19d354c0c1b1
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
