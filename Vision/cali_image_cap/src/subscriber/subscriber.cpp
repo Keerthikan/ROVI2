@@ -7,10 +7,12 @@
 #include <iostream>
 
 #include <opencv2/core/core.hpp>
+#include <opencv2/core/core_c.h>
+#include "opencv2/core/version.hpp"
 #include <opencv2/video/tracking.hpp>
 #include "opencv2/calib3d/calib3d_c.h"
-#include <opencv2/core/core.hpp>
 #include "opencv2/calib3d.hpp"
+
 
 #define THICKNESS_ONE   1
 #define LINETYPE_EIGHT  8
@@ -28,16 +30,10 @@ Mat projRight = (Mat_<float>(3, 4) << 1292.607813, 0.000000, 517.859631, -154.51
 Mat projLeft = (Mat_<float>(3, 4) << 1292.607813, 0.000000, 517.859631, 0.000000,0.000000, 1292.607813, 404.358028, 0.000000,0.000000, 0.000000, 1.000000, 0.000000);
 
 // Init Kalman
-vector<Point> trackv,kalmanv;
 
-KalmanFilter KF(4, 2, 0);
-Mat_<float> state(4, 1);
-Mat_<float> processNoise(4, 1, CV_32F);
 
-setIdentity(KF.measurementMatrix);
-setIdentity(KF.processNoiseCov, Scalar::all(1e-2));
-setIdentity(KF.measurementNoiseCov, Scalar::all(1e-1));
-setIdentity(KF.errorCovPost, Scalar::all(.1));
+
+
 
 void drawCross( Mat img, Point center,Scalar color, int d ){
     line(img, Point(center.x - d, center.y - d), Point(center.x + d, center.y + d), color, 2, CV_AA, 0);
@@ -114,6 +110,10 @@ protected:
     ros::NodeHandle nh_l_;
     ros::NodeHandle nh_r_;
     ros::NodeHandle nhPrivate_;
+    
+    KalmanFilter *KF;
+    Mat_<float> *state;
+    Mat_<float> *processNoise;
 
     sensor_msgs::ImageConstPtr imageIn_L;
     sensor_msgs::ImageConstPtr imageIn_temp_L; //used for storing
@@ -128,7 +128,7 @@ protected:
 
     cv_bridge::CvImagePtr image_out;  //for ros msg conversion
 
-
+    vector<Point> trackv,kalmanv;
 
 
 
@@ -138,7 +138,17 @@ public:
 
     Node(ros::NodeHandle& nh):nh_l_(nh), nh_r_(nh)
     {
-        image_transport::ImageTransport it_l(nh_l_);
+
+	KF = new KalmanFilter(4,2,0);        
+	state = new Mat_<float>(4,1);
+	processNoise = new Mat_<float>(4,1,CV_32F);
+	
+	
+	setIdentity(KF->measurementMatrix);
+	setIdentity(KF->processNoiseCov, Scalar::all(1e-2));
+	setIdentity(KF->measurementNoiseCov, Scalar::all(1e-1));
+
+	image_transport::ImageTransport it_l(nh_l_);
         image_transport::ImageTransport it_r(nh_r_);
 
         //sub_l = it_l.subscribe("/stereo_camera/left/image_raw", 1, &Node::imageCb_l, this);
@@ -147,13 +157,13 @@ public:
         sub_l = it_l.subscribe("/stereo_camera/left/image_rect_color", 1, &Node::imageCb_l, this);
         sub_r = it_r.subscribe("/stereo_camera/right/image_rect_color", 1, &Node::imageCb_r, this);
 
-        KF.statePre.at<float>(0) = 0;
-        KF.statePre.at<float>(1) = 0;
-        KF.statePre.at<float>(2) = 0;
-        KF.statePre.at<float>(3) = 0;
+        KF->statePre.at<float>(0) = 0;
+        KF->statePre.at<float>(1) = 0;
+        KF->statePre.at<float>(2) = 0;
+        KF->statePre.at<float>(3) = 0;
 
-        KF.transitionMatrix = (Mat_<float>(4, 4) << 1,0,1,0,   0,1,0,1,  0,0,1,0,  0,0,0,1); // Including velocity
-        KF.processNoiseCov = (cv::Mat_<float>(4,4) << 0.2,0,0.2,0,  0,0.2,0,0.2,  0,0,0.3,0,  0,0,0,0.3);
+        KF->transitionMatrix = (Mat_<float>(4, 4) << 1,0,1,0,   0,1,0,1,  0,0,1,0,  0,0,0,1); // Including velocity
+        KF->processNoiseCov = (cv::Mat_<float>(4,4) << 0.2,0,0.2,0,  0,0.2,0,0.2,  0,0,0.3,0,  0,0,0,0.3);
     }
 
     void imageCb_l(const sensor_msgs::ImageConstPtr& image)
@@ -262,10 +272,10 @@ public:
 
         std::cout << "Center\t" << measPt << std::endl;
 
-        Mat prediction = KF.predict();
+        Mat prediction = KF->predict();
         Point predictPt(prediction.at<float>(0),prediction.at<float>(1));
 
-        Mat estimated = KF.correct(measurement);
+        Mat estimated = KF->correct(measurement);
         Point statePt(estimated.at<float>(0),estimated.at<float>(1));
 
         drawCross(frame, statePt, Scalar(255, 255, 255), 7);
