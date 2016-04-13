@@ -8,9 +8,10 @@
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/video/tracking.hpp>
-#include "opencv2/calib3d/calib3d_c.h"
-#include <opencv2/core/core.hpp>
-#include "opencv2/calib3d.hpp"
+//#include "opencv2/calib3d/calib3d_c.h"
+#include <opencv2/core/core_c.h>
+//#include "opencv2/calib3d.hpp"
+#include <opencv2/calib3d/calib3d.hpp>
 
 #define THICKNESS_ONE   1
 #define LINETYPE_EIGHT  8

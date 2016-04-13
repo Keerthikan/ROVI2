@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "subscriber"
-PROJECT_SPACE_DIR = "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/install"
+PROJECT_SPACE_DIR = "/home/student/git/ROVI2/Vision/cali_image_cap/install"
 PROJECT_VERSION = "0.0.0"

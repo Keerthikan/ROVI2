@@ -1,8 +1,8 @@
-prefix=/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel
+prefix=/home/student/git/ROVI2/Vision/cali_image_cap/devel
 
 Name: subscriber
 Description: Description of subscriber
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel/lib 
+Libs: -L/home/student/git/ROVI2/Vision/cali_image_cap/devel/lib 
 Requires: 

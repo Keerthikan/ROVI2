@@ -1,10 +1,10 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/subscriber.dir/subscriber.cpp.o"
-  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel/lib/subscriber/subscriber.pdb"
-  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Vision/cali_image_cap/devel/lib/subscriber/subscriber"
+  "/home/student/git/ROVI2/Vision/cali_image_cap/devel/lib/subscriber/subscriber.pdb"
+  "/home/student/git/ROVI2/Vision/cali_image_cap/devel/lib/subscriber/subscriber"
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/subscriber.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/subscriber.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)
