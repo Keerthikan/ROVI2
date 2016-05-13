@@ -10,6 +10,8 @@
     (:file "_package_UrServiceForceModeStart" :depends-on ("_package"))
     (:file "UrServiceServoT" :depends-on ("_package_UrServiceServoT"))
     (:file "_package_UrServiceServoT" :depends-on ("_package"))
+    (:file "UrServicePayload" :depends-on ("_package_UrServicePayload"))
+    (:file "_package_UrServicePayload" :depends-on ("_package"))
     (:file "UrServiceEmpty" :depends-on ("_package_UrServiceEmpty"))
     (:file "_package_UrServiceEmpty" :depends-on ("_package"))
     (:file "UrServiceServoQ" :depends-on ("_package_UrServiceServoQ"))

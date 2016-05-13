@@ -118,7 +118,7 @@ stdexcept
 string
 -
 
-/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/include/caros/test/universal_robot_test.h
+/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/include/caros/test/universal_robot_test_back.h
 caros/serial_device_si_proxy.h
 -
 caros/common_robwork.h
@@ -127,7 +127,13 @@ rw/pathplanning/PlannerConstraint.hpp
 -
 rw/pathplanning/QToQPlanner.hpp
 -
+rw/pathplanning/QSampler.hpp
+-
 rw/invkin/JacobianIKSolver.hpp
+-
+rw/invkin/AmbiguityResolver.hpp
+-
+rw/invkin/ParallelIKSolver.hpp
 -
 rwlibs/pathplanners/rrt/RRTQToQPlanner.hpp
 -
@@ -139,13 +145,17 @@ rw/math/Vector3D.hpp
 -
 rw/math/RPY.hpp
 -
+rw/math/LinearAlgebra.hpp
+-
 rw/math/Rotation3DVector.hpp
 -
-rw/pathplanning/QSampler.hpp
+rw/math/Jacobian.hpp
 -
 rwlibs/proximitystrategies/ProximityStrategyPQP.hpp
 -
 rw/trajectory/LinearInterpolator.hpp
+-
+Eigen/Dense
 -
 opencv/highgui.h
 -
@@ -157,7 +167,9 @@ stdexcept
 -
 
 /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/src/test/simple_demo_using_move_ptp.cpp
-caros/test/universal_robot_test.h
+caros/test/universal_robot_test_back.h
+-
+opencv/highgui.h
 -
 ros/ros.h
 -
@@ -1266,6 +1278,16 @@ rw/sensor/Image.hpp
 rw/math/Vector3D.hpp
 -
 
+/home/keerthikan/RobWork/cmake/../src/rw/invkin/AmbiguityResolver.hpp
+InvKinSolver.hpp
+/home/keerthikan/RobWork/cmake/../src/rw/invkin/InvKinSolver.hpp
+rw/models/JointDevice.hpp
+-
+rw/kinematics/State.hpp
+-
+rw/math/Transform3D.hpp
+-
+
 /home/keerthikan/RobWork/cmake/../src/rw/invkin/InvKinSolver.hpp
 rw/common/Ptr.hpp
 -
@@ -1309,6 +1331,18 @@ rw/trajectory/Interpolator.hpp
 -
 vector
 -
+
+/home/keerthikan/RobWork/cmake/../src/rw/invkin/ParallelIKSolver.hpp
+rw/math/Transform3D.hpp
+-
+rw/math/Quaternion.hpp
+-
+rw/common/PropertyMap.hpp
+-
+rw/models/ParallelDevice.hpp
+-
+IterativeIK.hpp
+/home/keerthikan/RobWork/cmake/../src/rw/invkin/IterativeIK.hpp
 
 /home/keerthikan/RobWork/cmake/../src/rw/kinematics/FKRange.hpp
 State.hpp
@@ -1534,6 +1568,10 @@ Constants.hpp
 rw/common/Serializable.hpp
 -
 
+/home/keerthikan/RobWork/cmake/../src/rw/math/Function.hpp
+rw/common/Ptr.hpp
+-
+
 /home/keerthikan/RobWork/cmake/../src/rw/math/InertiaMatrix.hpp
 Vector3D.hpp
 /home/keerthikan/RobWork/cmake/../src/rw/math/Vector3D.hpp
@@ -1562,6 +1600,42 @@ rw/math/Transform3D.hpp
 rw/common/Serializable.hpp
 -
 boost/numeric/ublas/matrix.hpp
+-
+
+/home/keerthikan/RobWork/cmake/../src/rw/math/LinearAlgebra.hpp
+boost/numeric/ublas/vector.hpp
+-
+boost/numeric/ublas/vector_proxy.hpp
+-
+boost/numeric/ublas/matrix.hpp
+-
+boost/numeric/ublas/matrix_proxy.hpp
+-
+boost/numeric/ublas/triangular.hpp
+-
+boost/numeric/ublas/lu.hpp
+-
+boost/numeric/ublas/io.hpp
+-
+boost/numeric/bindings/lapack/workspace.hpp
+-
+boost/numeric/bindings/lapack/syev.hpp
+-
+boost/numeric/bindings/lapack/geev.hpp
+-
+boost/numeric/bindings/traits/ublas_matrix.hpp
+-
+boost/numeric/bindings/traits/ublas_vector.hpp
+-
+boost/numeric/bindings/lapack/gesvd.hpp
+-
+boost/numeric/bindings/lapack/ptsv.hpp
+-
+Eigen/Eigen
+-
+Eigen/SVD
+-
+limits
 -
 
 /home/keerthikan/RobWork/cmake/../src/rw/math/Math.hpp
@@ -1776,6 +1850,26 @@ rw/kinematics/State.hpp
 rw/kinematics/FKTable.hpp
 -
 
+/home/keerthikan/RobWork/cmake/../src/rw/models/Joint.hpp
+rw/kinematics/Frame.hpp
+-
+rw/math/Transform3D.hpp
+-
+rw/math/Jacobian.hpp
+-
+rw/math/Function.hpp
+-
+
+/home/keerthikan/RobWork/cmake/../src/rw/models/JointDevice.hpp
+Device.hpp
+/home/keerthikan/RobWork/cmake/../src/rw/models/Device.hpp
+JacobianCalculator.hpp
+/home/keerthikan/RobWork/cmake/../src/rw/models/JacobianCalculator.hpp
+Joint.hpp
+/home/keerthikan/RobWork/cmake/../src/rw/models/Joint.hpp
+vector
+-
+
 /home/keerthikan/RobWork/cmake/../src/rw/models/Object.hpp
 rw/common/Ptr.hpp
 -
@@ -1794,6 +1888,14 @@ rw/graphics/Model3D.hpp
 rw/math/InertiaMatrix.hpp
 -
 vector
+-
+
+/home/keerthikan/RobWork/cmake/../src/rw/models/ParallelDevice.hpp
+JointDevice.hpp
+/home/keerthikan/RobWork/cmake/../src/rw/models/JointDevice.hpp
+vector
+-
+string
 -
 
 /home/keerthikan/RobWork/cmake/../src/rw/models/WorkCell.hpp

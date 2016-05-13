@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServiceServoT.py"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServiceEmpty.py"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServiceForceModeStop.py"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServicePayload.py"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServiceForceModeUpdate.py"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServiceServoQ.py"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/lib/python2.7/dist-packages/caros_universalrobot/srv/_UrServiceForceModeStart.py"

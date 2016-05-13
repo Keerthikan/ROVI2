@@ -9,7 +9,7 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/simple_caros_universalrobot_d
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/core/caros_common/include/caros/caros_service_client.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/core/caros_common/include/caros/exceptions.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/core/caros_common_robwork/include/caros/common_robwork.h
- /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/include/caros/test/universal_robot_test.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/include/caros/test/universal_robot_test_back.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/src/test/simple_demo_using_move_ptp.cpp
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/interfaces/caros_control/include/caros/serial_device_si_proxy.h
  /home/keerthikan/RobWork/cmake/../ext/boostbindings/boost/numeric/bindings/lapack/geev.hpp
@@ -117,9 +117,11 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/simple_caros_universalrobot_d
  /home/keerthikan/RobWork/cmake/../src/rw/graphics/SceneDescriptor.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/graphics/SceneNode.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/graphics/TextureData.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/invkin/AmbiguityResolver.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/invkin/InvKinSolver.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/invkin/IterativeIK.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/invkin/JacobianIKSolver.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/invkin/ParallelIKSolver.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/kinematics/FKRange.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/kinematics/FKTable.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/kinematics/Frame.hpp
@@ -134,8 +136,10 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/simple_caros_universalrobot_d
  /home/keerthikan/RobWork/cmake/../src/rw/kinematics/TreeState.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math/EAA.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/math/Function.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math/InertiaMatrix.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math/Jacobian.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/math/LinearAlgebra.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math/Math.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math/Metric.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/math/MetricFactory.hpp
@@ -154,7 +158,10 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/simple_caros_universalrobot_d
  /home/keerthikan/RobWork/cmake/../src/rw/models/ControllerModel.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/models/Device.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/models/JacobianCalculator.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/models/Joint.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/models/JointDevice.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/models/Object.hpp
+ /home/keerthikan/RobWork/cmake/../src/rw/models/ParallelDevice.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/models/WorkCell.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/pathplanning/PathPlanner.hpp
  /home/keerthikan/RobWork/cmake/../src/rw/pathplanning/PlannerConstraint.hpp

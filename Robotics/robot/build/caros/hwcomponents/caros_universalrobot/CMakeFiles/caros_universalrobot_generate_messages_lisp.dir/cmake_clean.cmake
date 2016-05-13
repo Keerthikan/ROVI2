@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServiceServoT.lisp"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServiceEmpty.lisp"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServiceForceModeStop.lisp"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServicePayload.lisp"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServiceForceModeUpdate.lisp"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServiceServoQ.lisp"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/share/common-lisp/ros/caros_universalrobot/srv/UrServiceForceModeStart.lisp"

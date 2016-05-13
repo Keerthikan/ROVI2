@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "caros_universalrobot: 0 messages, 6 services")
+message(STATUS "caros_universalrobot: 0 messages, 7 services")
 
 set(MSG_I_FLAGS "-Icaros_common_msgs:/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/core/caros_common_msgs/msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -28,6 +28,11 @@ add_custom_target(_caros_universalrobot_generate_messages_check_deps_${_filename
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv" NAME_WE)
 add_custom_target(_caros_universalrobot_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "caros_universalrobot" "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv" ""
+)
+
+get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv" NAME_WE)
+add_custom_target(_caros_universalrobot_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "caros_universalrobot" "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv" ""
 )
 
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeUpdate.srv" NAME_WE)
@@ -72,6 +77,12 @@ _generate_srv_cpp(caros_universalrobot
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/caros_universalrobot
 )
 _generate_srv_cpp(caros_universalrobot
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/caros_universalrobot
+)
+_generate_srv_cpp(caros_universalrobot
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeUpdate.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/indigo/share/geometry_msgs/cmake/../msg/Wrench.msg"
@@ -108,6 +119,8 @@ get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project
 add_dependencies(caros_universalrobot_generate_messages_cpp _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_cpp _caros_universalrobot_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv" NAME_WE)
+add_dependencies(caros_universalrobot_generate_messages_cpp _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeUpdate.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_cpp _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceServoQ.srv" NAME_WE)
@@ -140,6 +153,12 @@ _generate_srv_lisp(caros_universalrobot
 )
 _generate_srv_lisp(caros_universalrobot
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/caros_universalrobot
+)
+_generate_srv_lisp(caros_universalrobot
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/caros_universalrobot
@@ -181,6 +200,8 @@ get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project
 add_dependencies(caros_universalrobot_generate_messages_lisp _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_lisp _caros_universalrobot_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv" NAME_WE)
+add_dependencies(caros_universalrobot_generate_messages_lisp _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeUpdate.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_lisp _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceServoQ.srv" NAME_WE)
@@ -213,6 +234,12 @@ _generate_srv_py(caros_universalrobot
 )
 _generate_srv_py(caros_universalrobot
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/caros_universalrobot
+)
+_generate_srv_py(caros_universalrobot
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/caros_universalrobot
@@ -253,6 +280,8 @@ add_dependencies(caros_universalrobot_generate_messages_py _caros_universalrobot
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceEmpty.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_py _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeStop.srv" NAME_WE)
+add_dependencies(caros_universalrobot_generate_messages_py _caros_universalrobot_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_py _caros_universalrobot_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeUpdate.srv" NAME_WE)
 add_dependencies(caros_universalrobot_generate_messages_py _caros_universalrobot_generate_messages_check_deps_${_filename})

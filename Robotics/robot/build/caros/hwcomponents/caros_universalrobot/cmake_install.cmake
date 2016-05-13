@@ -40,6 +40,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceForceModeUpdate.srv"
     "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceServoQ.srv"
     "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServiceServoT.srv"
+    "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/src/caros/hwcomponents/caros_universalrobot/srv/UrServicePayload.srv"
     )
 endif()
 

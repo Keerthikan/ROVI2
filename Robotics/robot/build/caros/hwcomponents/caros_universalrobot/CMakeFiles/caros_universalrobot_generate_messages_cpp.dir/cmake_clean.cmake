@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoT.h"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceEmpty.h"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeStop.h"
+  "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayload.h"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdate.h"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQ.h"
   "/home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeStart.h"

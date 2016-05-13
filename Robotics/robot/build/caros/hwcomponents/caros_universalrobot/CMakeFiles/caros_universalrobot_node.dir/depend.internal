@@ -42,6 +42,9 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/caros_universalrobot_node.dir
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdate.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdateRequest.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdateResponse.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayload.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayloadRequest.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayloadResponse.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQ.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQRequest.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQResponse.h
@@ -521,6 +524,9 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/caros_universalrobot_node.dir
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdate.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdateRequest.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdateResponse.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayload.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayloadRequest.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayloadResponse.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQ.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQRequest.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQResponse.h
@@ -988,6 +994,9 @@ caros/hwcomponents/caros_universalrobot/CMakeFiles/caros_universalrobot_node.dir
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdate.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdateRequest.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceForceModeUpdateResponse.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayload.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayloadRequest.h
+ /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServicePayloadResponse.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQ.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQRequest.h
  /home/keerthikan/Dropbox/Eksamen/ROVI2/Project/Robotics/robot/devel/include/caros_universalrobot/UrServiceServoQResponse.h
