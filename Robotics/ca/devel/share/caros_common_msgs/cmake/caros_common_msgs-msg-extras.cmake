@@ -1,0 +1,2 @@
+set(caros_common_msgs_MESSAGE_FILES "/home/keerthikan/ca/src/caros/core/caros_common_msgs/msg/CarosNodeState.msg;/home/keerthikan/ca/src/caros/core/caros_common_msgs/msg/Q.msg")
+set(caros_common_msgs_SERVICE_FILES "/home/keerthikan/ca/src/caros/core/caros_common_msgs/srv/ConfigBool.srv;/home/keerthikan/ca/src/caros/core/caros_common_msgs/srv/ConfigInt.srv;/home/keerthikan/ca/src/caros/core/caros_common_msgs/srv/EmptySrv.srv")

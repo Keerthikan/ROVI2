@@ -1,0 +1,2 @@
+set(caros_sensor_msgs_MESSAGE_FILES "/home/keerthikan/ca/src/caros/interfaces/caros_sensor_msgs/msg/ButtonSensorState.msg;/home/keerthikan/ca/src/caros/interfaces/caros_sensor_msgs/msg/PoseSensorState.msg;/home/keerthikan/ca/src/caros/interfaces/caros_sensor_msgs/msg/TactileArrayData.msg;/home/keerthikan/ca/src/caros/interfaces/caros_sensor_msgs/msg/TactileArrayState.msg")
+set(caros_sensor_msgs_SERVICE_FILES "")

@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/ca/install
+
+Name: caros_common_robwork
+Description: Description of caros_common_robwork
+Version: 0.0.1
+Cflags: -I/home/keerthikan/ca/install/include
+Libs: -L/home/keerthikan/ca/install/lib -lcaros_common_robwork
+Requires: caros_common caros_common_msgs caros_common_robwork_msgs message_runtime roscpp std_msgs

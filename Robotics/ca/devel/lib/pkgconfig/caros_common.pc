@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/ca/devel
+
+Name: caros_common
+Description: Description of caros_common
+Version: 0.0.1
+Cflags: -I/home/keerthikan/ca/src/caros/core/caros_common/include
+Libs: -L/home/keerthikan/ca/devel/lib -lcaros_common
+Requires: caros_common_msgs message_runtime roscpp std_msgs

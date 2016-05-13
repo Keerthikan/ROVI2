@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/ca/install
+
+Name: caros_schunkpg70
+Description: Description of caros_schunkpg70
+Version: 0.0.1
+Cflags: -I/home/keerthikan/ca/install/include
+Libs: -L/home/keerthikan/ca/install/lib 
+Requires: caros_common caros_control roscpp

@@ -1,0 +1,8 @@
+prefix=/home/keerthikan/ca/install
+
+Name: caros_sensor
+Description: Description of caros_sensor
+Version: 0.0.1
+Cflags: -I/home/keerthikan/ca/install/include
+Libs: -L/home/keerthikan/ca/install/lib -lcaros_sensor
+Requires: caros_common caros_common_msgs caros_common_robwork caros_sensor_msgs geometry_msgs message_runtime std_msgs

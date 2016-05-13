@@ -1,0 +1,13 @@
+(cl:defpackage caros_sensor_msgs-msg
+  (:use )
+  (:export
+   "<TACTILEARRAYDATA>"
+   "TACTILEARRAYDATA"
+   "<POSESENSORSTATE>"
+   "POSESENSORSTATE"
+   "<TACTILEARRAYSTATE>"
+   "TACTILEARRAYSTATE"
+   "<BUTTONSENSORSTATE>"
+   "BUTTONSENSORSTATE"
+  ))
+
